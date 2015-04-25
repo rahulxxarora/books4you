@@ -1,0 +1,10 @@
+INFIBEAM
+Rupees 123
+BOOKADDA
+Rupees 137
+FLIPKART
+Rupees 150
+JUNGLEE
+Rupees 102
+AMAZON
+Rupees 102

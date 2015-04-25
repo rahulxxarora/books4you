@@ -1,0 +1,9 @@
+import os
+f = open('results.txt','w')
+f.close()
+os.system('python 5.py &')
+os.system('python 4.py &')
+os.system('python 3.py &')
+os.system('python 2.py &')
+os.system('python 1.py &')
+os.system('python img.py')

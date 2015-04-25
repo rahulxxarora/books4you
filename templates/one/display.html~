@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+    <head>
+        <title>Search results</title>
+    </head>
+
+    <body>
+        <center><img src="{% static "images/pic.jpg" %}" alt="BOOK"/></center> 
+        {% if title %}
+        <font face="Symbol" size="5">
+            <center>
+                {% for one in title %}
+                    {{ one }}
+                {% endfor %}
+            </center>
+        </font>
+        {% endif %}
+        <br>
+        {% if names %}
+            <center>
+                {% for one,two in names %}
+                {{ one }} : {{ two }}
+                <br>
+                {% endfor %}
+            </center>
+        {% else %}
+            <strong>There are no results.</strong>
+        {% endif %}
+    </body>
+</html>

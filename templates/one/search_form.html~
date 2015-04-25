@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+<head>
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    <title>BOOKS4U</title>
+</head>
+<body>
+    <div id="envelope">
+    <form action="one/search/" method="get">
+        <input type="text" name="q">
+        <input type="submit" value="Search">
+    </form>
+</body>
+</html>
